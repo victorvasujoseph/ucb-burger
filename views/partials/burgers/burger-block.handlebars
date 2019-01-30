@@ -1,0 +1,10 @@
+<li class="collection-item">
+    {{burger_name}}
+
+    {{#if devoured}}
+    {{else}}
+        <button class="change-devour" data-id="{{id}}" data-newdevour="true">
+            DEVOUR IT!
+        </button>
+    {{/if}}
+</li>
