@@ -1,3 +1,21 @@
 body{
     background-color: antiquewhite;
 }
+
+.s8, .s12, .btn, .formdiv {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+h5 {
+    text-align: center !important;
+}
+
+.change-devour {
+    float: right;
+}
+
+.formdiv {
+    margin-bottom: 0 !important;
+}
