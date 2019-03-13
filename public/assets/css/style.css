@@ -1,21 +1,55 @@
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
+  font-family: "Indie Flower", cursive;
+  background-image: url("/assets/img/p2.jpg");
 }
 
-.s8, .s12, .btn, .formdiv {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
+#burger-header {
+  font-size: 58px;
 }
 
-h5 {
-    text-align: center !important;
+#burger-0 {
+  background-color: rgb(105, 105, 240);
+  /* opacity: 0.9; */
+}
+#burger-1 {
+  background-color: orange;
+  opacity: 0.9;
 }
 
-.change-devour {
-    float: right;
+#burger-3 {
+  background-color: rgb(105, 105, 240);
+  opacity: 0.9;
 }
 
-.formdiv {
-    margin-bottom: 0 !important;
+#textarea {
+  width: 200px;
+  height: 50px;
+  color: rgb(80, 9, 9);
+}
+
+#burger-eat-h1,
+#burger-eaten-h1 {
+  font-family: "Roboto Slab", serif;
+  color: rgb(52, 38, 235);
+}
+
+#header,
+#text {
+  font-family: "Roboto Slab", serif;
+  color: rgb(80, 9, 9);
+}
+.fa-hamburger {
+  color: orange;
+}
+
+.row {
+  padding: 50px;
+}
+
+#ul-eaten,
+#ul-eat {
+  color: rgb(52, 38, 235);
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
 }
